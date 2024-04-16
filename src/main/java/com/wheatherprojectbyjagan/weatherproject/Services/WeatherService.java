@@ -8,10 +8,16 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherService {
 
-    @Value("${openWeather.url-cityTemp}")
+//    @Value("${openWeather.url-cityTemp}")
     private String BaseURLCityTemp;
-    @Value("${openWeather.token}")
+//    @Value("${openWeather.token}")
     private String token;
+
+
+    public WeatherService(@Value("${openWeather.url-cityTemp}") String baseURLCityTemp, @Value("${openWeather.token}") String token) {
+        BaseURLCityTemp = baseURLCityTemp;
+        this.token = token;
+    }
 
     RestTemplate restTemplate = new RestTemplate();
 
