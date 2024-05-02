@@ -8,6 +8,8 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class WeatherService {
 
+//    @value will fetch the information from application properties file and will update the variables with value given in properties files
+
 //    @Value("${openWeather.url-cityTemp}")
     private String BaseURLCityTemp;
 //    @Value("${openWeather.token}")
