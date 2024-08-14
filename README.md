@@ -20,5 +20,5 @@
 ## How It Works:
 
 - Enter Your City: Input the city name you want to check the weather.
-- Fetch Data: The app calls the OpenWeatherMap API link - [openweathermap](https://openweathermap.org/api/one-call-3#start) 
+- Fetch Data: The app calls the OpenWeatherMap API link - [Open Weather map](https://openweathermap.org/api/one-call-3#start) 
 - Display Results: See the detailed weather forecast instantly!
